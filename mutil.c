@@ -194,9 +194,9 @@ int main(unsigned int argc, char* argv[])
 		fprintf(stderr, "Invalid syntax!\n\n");
 	if(syntaxErr || showHelp) {
 		puts("Usage:");
-		puts("mutil -r[x|b] <register>\n");
-		puts("mutil -w[x] <register> <value>\n");
-		puts("mutil <-a|-i> <file|->\n");
+		puts("mutil -r[x|b] <register>");
+		puts("mutil -w[x] <register> <value>");
+		puts("mutil <-a|-i> <file|->");
 		puts("mutil <-h|-v>\n");
 		
 		if(showHelp) {
