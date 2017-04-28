@@ -2,7 +2,7 @@
 CLI for controlling the FPGA registers in the DDCSV1.1 CNC controller
 
 Usages:
-  * mutil -r[x|b] <register>;
+  * mutil -r[x|b] <register>
   * mutil -w[x] <register> <value>
   * mutil <-a|-i> <file|->
   * mutil <-h|-v>
