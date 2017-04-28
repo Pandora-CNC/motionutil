@@ -12,7 +12,7 @@ Commands:
   * -rx:  Reads the hexadecimal value from the register specified in decimal
   * -rb:  Reads the binary value from the register specified in decimal
   * -a:   Reads all registers and writes them to a file or to - (stdout)
-		* -i:   Reads the raw interpolation data and writes it to a file or to - (stdout)
+  * -i:   Reads the raw interpolation data and writes it to a file or to - (stdout)
   * -w:   Writes the decimal value to the register specified in decimal
   * -wx:  Writes the hexadecimal value to the register specified in decimal
   * -h:   Displays information about the utility and the commands
